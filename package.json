@@ -28,8 +28,10 @@
   "dependencies": {
     "cheerio": "^1.2.0",
     "cors": "^2.8.6",
+    "crawler": "^2.0.2",
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
+    "jsdom": "^28.0.0",
     "nodemon": "^3.1.11"
   }
 }
