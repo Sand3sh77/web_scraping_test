@@ -1,0 +1,35 @@
+{
+  "name": "web_scraping_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#controllers/*": "./src/controllers/*",
+    "#middleware/*": "./src/middleware/*",
+    "#models/*": "./models/*",
+    "#routes/*": "./src/routes/*",
+    "#schema/*": "./src/schema/*",
+    "#services/*": "./src/services/*",
+    "#utils/*": "./src/utils/*",
+    "#validations/*": "./src/validations/*"
+  },
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
